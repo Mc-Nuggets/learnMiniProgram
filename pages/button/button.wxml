@@ -1,0 +1,14 @@
+<!--pages/button/button.wxml-->
+<view>
+<button>默认按钮</button>
+<!-- size属性 -->
+<button size="mini">mini按钮</button>
+<!-- type属性 -->
+<button size="mini" type="primary">primary</button>
+<button size="mini" type="default">default</button>
+<button size="mini" type="warn">warn</button>
+<!-- plain:镂空效果 -->
+<button size="mini" plain>plain</button>
+<!-- hover -->
+<button size="mini" hover-class="pressed">hover</button>
+</view>

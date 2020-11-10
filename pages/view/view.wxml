@@ -1,0 +1,15 @@
+<!--pages/view/view.wxml-->
+<!-- view基本使用 -->
+<view class="myview">myview</view>
+<view>view</view>
+<!-- hover-class 当按下时，显示的样式 -->
+<view hover-class="hoverfather"  hover-stay-time="50" 
+    hover-start-time="2">
+  <!-- hover-stop-propagation 阻止父节点hover -->
+    <view class="hoverview"
+  hover-class="whiledo"
+    hover-stay-time="50" 
+    hover-start-time="2"
+    hover-stop-propagation>hoverview
+  </view>
+</view>

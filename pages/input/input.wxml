@@ -1,0 +1,6 @@
+<!--pages/input/input.wxml-->
+<input/>
+<!-- placeholder:设置占位文字 -->
+<input placeholder="占位文字"/>
+<!-- input绑定事件 -->
+<input bindinput="handleInput"/>

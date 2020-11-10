@@ -1,0 +1,10 @@
+<!--pages/text/text.wxml-->
+<text>hello</text>
+<text selectable>可以被选中</text>
+<text space="emsp">emsp 空格 大小</text>
+<text space="ensp">emsp 空格 大小</text>
+<text space="nbsp">nbsp 空格 大小</text>
+<text >解码功能未开启 5 &gt; 3 </text>
+<text decode>解码功能开启 5 &gt; 3 </text>
+
+
